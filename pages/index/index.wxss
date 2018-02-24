@@ -1,0 +1,66 @@
+/**index.wxss**/
+.item{
+  margin-top: 36rpx;
+}
+.classify{
+  width: 98%;
+  margin: 0 auto;
+}
+.icon-iconset0195{
+  font-size: 40rpx;
+  color: dodgerblue;
+}
+.classify-title{
+  font-size: 36rpx;
+  color: #666;
+  margin-left: 10rpx;
+}
+.article{
+  width: 86%;
+  margin: 0 auto;
+  margin-top: 28rpx;
+  overflow: hidden;
+  border-bottom: 1px #ccc solid;
+  padding-bottom: 24rpx;
+}
+.article-abs{
+  color: #666;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+  margin-top: 28rpx;
+}
+.article-con{
+  width: 50%;
+}
+.article-img{
+  width: 45%;
+  height: 300rpx
+}
+.containei{
+  width: 96%;
+  margin: 0 auto;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+.containei view{
+  color: #fff;
+  font-size: 32rpx;
+  border-radius: 5px;
+  width: 165rpx;
+  height: 150rpx;
+  margin: 16rpx 39rpx;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: center;
+  background: orange;
+  position: relative;
+}
+.icon-jingqingqidai{
+  position: absolute;
+  font-size: 45rpx;
+  top: 0;
+  right: -1rpx;
+}

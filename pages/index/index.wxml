@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<swiper indicator-color='#fff' indicator-active-color='blue' circular="true" indicator-dots='true' autoplay='true' interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{swiperData}}" wx:key='index'>
+    <swiper-item>
+      <image src="{{item.imgSrc}}" />
+    </swiper-item>
+  </block>
+</swiper>
+<view class='item'>
+  <view class='classify'>
+    <text class='iconfont icon-iconset0195'></text>
+    <text class='classify-title'>精选文章</text>
+  </view>
+  <view class='article'>
+    <view class='article-con fl'>
+      <text class='article-title'>{{articleInfo.title}}</text>
+      <text class='article-abs'>{{articleInfo.abs}}</text>
+    </view>
+    <view class='article-img rl'>
+      <image src='{{articleInfo.src}}'></image>
+    </view>
+  </view>
+</view>
+<view class='item'>
+  <view class='classify'>
+    <text class='iconfont icon-iconset0195'></text>
+    <text class='classify-title'>精选视频</text>
+  </view>
+  <view class='containei'>
+    <view wx:for="{{classifyVideo}}" wx:key="index" style='{{item.style}}'>
+      {{item.classifyName}}
+      <text class='iconfont icon-jingqingqidai'></text>
+    </view>
+  </view>
+</view>
